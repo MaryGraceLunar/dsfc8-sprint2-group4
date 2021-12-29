@@ -1,7 +1,7 @@
 from flask import Flask, request
 from joblib import load
 
-decision_tree = load("model.joblib")
+decision_tree = load("model_xgb.joblib")
 
 DECISION = {0: "Not Fraud", 1: "Fraud"}
 
