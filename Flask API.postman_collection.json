@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d3a47f31-0b91-41e7-b003-1b112be357aa",
+		"name": "Flask API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Scoring - Fraud",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"values\": [15.5333,\r\n        121.0833,\r\n        1621652559.0,\r\n        328.63,\r\n        15.733342000000002,\r\n        121.433515,\r\n        44888.347625211834,\r\n        387.8214285714286,\r\n        91446.74917175647,\r\n        63.481428571428566,\r\n        431.69,\r\n        2.571428571428572,\r\n        3.1428571428571432,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        1.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        1.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        1.0,\r\n        0.0,\r\n        0.0,\r\n        0.0,\r\n        0.0]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dsfc8sprint2group4.herokuapp.com/score",
+					"protocol": "https",
+					"host": [
+						"dsfc8sprint2group4",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"score"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
