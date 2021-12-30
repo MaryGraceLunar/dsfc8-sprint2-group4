@@ -1,5 +1,6 @@
 from flask import Flask, request
 from joblib import load
+import numpy as np
 
 decision_tree = load("model.joblib")
 
@@ -20,7 +21,7 @@ def score_inputs():
     content = request.json
     val_to_score = content["values"]
 
-    result = decision_tree.predict([val_to_score])
+    result = decision_tree.predict(np.array([val_to_score]))
 
     fraud_result = DECISION[result[0]]
 
